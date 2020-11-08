@@ -1,0 +1,125 @@
+body{
+    /* background-color: rgba(38, 0, 56); */
+    background-image: url('./secimg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(241, 211, 255);
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.nav-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-bar{
+    width: 80%;
+    display: flex;
+    justify-content: right;
+
+}
+.nav-item{
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-container a{
+    color:  white;
+    background-color: transparent;
+    text-decoration: none;
+    
+  }
+.logo{
+    width: 10%;
+    text-align: center;
+}
+
+.logo-img{
+    width: 50%;
+    height: auto;
+}
+
+.banner{
+    background-image: url(./valor1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh;
+    
+}
+.banner-container{
+    height: 100%;
+    background-color: rgb(73, 73, 73, 0.7);
+    
+}
+.banner-details{
+    font-size: 20px;
+    margin-top:30%;
+    text-align: center;  
+    color: rgb(207, 78, 100);  
+}
+.banner-details a{
+    background-color:rgb(31, 25, 25);
+    color: rgb(207, 78, 100);
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    
+    text-align: center;
+}
+
+.section-content{
+    display: flex;
+    align-items: flex-start;
+    margin: 5%;
+}
+.section-image img{
+    border: 0px;
+   
+
+}
+.section-details{
+    margin-left: 10%;
+    height: auto;
+    font-size: 20px;
+    color: black;
+    background: thistle;
+
+}
+/* .foot{
+
+    color:black;
+    text-align: center;
+
+} */
+footer{
+    background-color:rgb(56, 53, 53);
+  
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;   
+}
+
+.footer-links{
+    color: rgb(236, 229, 229);
+    text-align: center;
+}
+.footer-links a{
+    color: rgb(190, 106, 120);
+}
+  
