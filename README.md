@@ -1,2 +1,2 @@
-  It is a gaming blog where a game name valorant has been shown. 
+  It is a gaming blog where a game name valorant has been shown. HTml and css for styling.Navigation bar for logo and navigation itrms for home, about us,about agents.In content section banner images and details are included and in about us the agents details. CSS flexbox to align items vertically and horizontally using columns. Items will flex to different size to fill up the space and make it responsive. Alternate is also used to row reverse and media query for content and the images to be responsive. Grid to grid the images and in footer the details about the social media also Registration and Login Form are included.
 https://rishikesh46.github.io/Blog1/
